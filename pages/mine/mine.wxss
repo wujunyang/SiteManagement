@@ -1,0 +1,62 @@
+.myheaderView {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: yellow;
+}
+
+.myScroll {
+  background-color: white;
+}
+
+.myheaderView {
+  height: 140px;
+  background-color: #39b5de;
+  flex-direction: column;
+  align-items: center;
+}
+
+.myheaderImage {
+  height: 50px;
+  width: 50px;
+  margin-top: 25px;
+}
+
+.myheaderText {
+  margin-top: 20px;
+  color: #333;
+}
+
+.myTableView
+{
+    margin-top: 15px;
+}
+
+.myCell
+{
+    height: 44px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.myCellImage
+{
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+}
+
+.myCellText
+{
+    margin-left: 30px;
+}
+
+.myline
+{
+    margin-left: 0;
+    margin-right: 0;
+    height: 1px;
+    background-color: gainsboro;
+}

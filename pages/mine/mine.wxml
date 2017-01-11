@@ -1,0 +1,37 @@
+<!-- 我的页面 -->
+
+<view>
+<scroll-view class="myScroll" scroll-y="true">
+
+<!-- 头部视图 -->
+<view class="myheaderView">
+<image class="myheaderImage" src="../../images/srcImage/default_header.png"></image>
+<text class="myheaderText">施工管理人员</text>
+</view>
+
+<!-- 中间内容 -->
+<view class="myTableView">
+<!-- 行 -->
+<view class="myCell">
+<image class="myCellImage" src="../../images/icon/nbls_feedback_icon.png"></image>
+<text class="myCellText">意见反馈</text>
+<view class="myline"></view>
+</view>
+
+
+<view class="myCell">
+<image class="myCellImage" src="../../images/icon/nbls_modify_password.png"></image>
+<text class="myCellText">修改密码</text>
+<view class="myline"></view>
+</view>
+
+
+<view class="myCell">
+<image class="myCellImage" src="../../images/icon/nbls_setting.png"></image>
+<text class="myCellText">退出登录</text>
+<view class="myline"></view>
+</view>
+</view>
+
+</scroll-view>
+</view>

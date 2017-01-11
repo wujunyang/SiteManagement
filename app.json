@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/customer/customer",
+    "pages/mine/mine",
+    "pages/site/site"
+  ],
+  "window":{
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#39b5de",
+    "navigationBarTitleText": "施工管理",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#eceff4"
+  },
+  "tabBar": {
+    "color": "#858585",
+    "selectedColor": "#ffae00",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tabbarIcon/nbls_work_normal.png",
+        "selectedIconPath": "images/tabbarIcon/nbls_work_select.png",
+        "text": "工作台"
+      },
+      {
+        "pagePath": "pages/site/site",
+        "iconPath": "images/tabbarIcon/nbls_site_normal.png",
+        "selectedIconPath": "images/tabbarIcon/nbls_site_select.png",
+        "text": "工地"
+      },
+      {
+        "pagePath": "pages/customer/customer",
+        "iconPath": "images/tabbarIcon/nbls_rong_normal.png",
+        "selectedIconPath": "images/tabbarIcon/nbls_rong_select.png",
+        "text": "客户"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "images/tabbarIcon/nbls_mine_normal.png",
+        "selectedIconPath": "images/tabbarIcon/nbls_mine_select.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "debug": true
+}
