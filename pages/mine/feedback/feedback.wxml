@@ -1,0 +1,7 @@
+<view>
+<input type="text" class="myInput" placeholder="请输入意见" focus="true">
+</input>
+<button class="myButton" type="primary">
+提交
+</button>
+</view>

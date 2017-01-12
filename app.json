@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/customer/customer",
     "pages/mine/mine",
-    "pages/site/site"
+    "pages/site/site",
+    "pages/mine/feedback/feedback"
   ],
   "window":{
     "backgroundTextStyle": "light",

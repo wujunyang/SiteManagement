@@ -3,11 +3,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: yellow;
+  background-color: blueviolet;
 }
 
 .myScroll {
   background-color: white;
+  height: 100%;
 }
 
 .myheaderView {
@@ -36,27 +37,29 @@
 .myCell
 {
     height: 44px;
-    width: 100%;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .myCellImage
 {
     height: 20px;
     width: 20px;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 .myCellText
 {
-    margin-left: 30px;
+    margin-left: 15px;
+    color: white;
 }
 
 .myline
 {
     margin-left: 0;
     margin-right: 0;
+    padding-bottom: 0;
     height: 1px;
     background-color: gainsboro;
 }

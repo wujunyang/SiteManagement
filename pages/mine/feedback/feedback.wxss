@@ -1,0 +1,16 @@
+
+.myInput
+{
+    height: 140px;
+    margin: 10px;
+    border-width: 1px;
+    border-color: red;
+    background-color: blue;
+}
+
+.myButton
+{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
