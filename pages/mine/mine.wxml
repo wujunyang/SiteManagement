@@ -14,7 +14,7 @@
     <view class="myTableView">
 
       <!-- 行 -->
-      <navigator url="/pages/mine/feedback/feedback">
+      <navigator url="../mine/feedback/feedback">
         <view class="myCell" style="background-color:red">
           <image class="myCellImage" src="../../images/icon/nbls_feedback_icon.png"></image>
           <text class="myCellText">意见反馈</text>
@@ -26,7 +26,7 @@
         <text class="myCellText">修改密码</text>
       </view>
       <view class="myline"></view>
-      <view class="myCell" style="background-color:blueviolet">
+      <view class="myCell" style="background-color:blueviolet" bindtap="showPassword">
         <image class="myCellImage" src="../../images/icon/nbls_setting.png"></image>
         <text class="myCellText">退出登录</text>
       </view>
