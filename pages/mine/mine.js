@@ -11,7 +11,7 @@ Page({
     showPassword: function (event) {
         wx.showModal({
             title: '提示',
-            content: '这是一个模态弹窗',
+            content: '你确定要退出系统吗吗？',
             success: function (res) {
                 if (res.confirm) {
                     console.log('用户点击确定');

@@ -1,0 +1,14 @@
+
+<!-- 列表 -->
+<scroll-view class="myScroll" scroll-y="true">
+  <block wx:for="{{userList}}" wx:for-item="item" wx:key="*this">
+    <view class="myCell">
+      <image class="myImage" src="{{item.url}}"></image>
+      <view class="myRightView">
+        <text class="myUserName">客户名:{{item.userName}}</text>
+        <text class="myTel">电话号码：{{item.tel}}</text>
+        <text class="myAddress">地址：{{item.address}}</text>
+      </view>
+    </view>
+  </block>
+</scroll-view>

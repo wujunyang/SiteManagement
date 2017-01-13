@@ -15,18 +15,18 @@
 
       <!-- 行 -->
       <navigator url="../mine/feedback/feedback">
-        <view class="myCell" style="background-color:red">
+        <view class="myCell">
           <image class="myCellImage" src="../../images/icon/nbls_feedback_icon.png"></image>
           <text class="myCellText">意见反馈</text>
         </view>
         <view class="myline"></view>
       </navigator>
-      <view class="myCell" bindtap="touchAdd" style="background-color:blue">
+      <view class="myCell" >
         <image class="myCellImage" src="../../images/icon/nbls_modify_password.png"></image>
         <text class="myCellText">修改密码</text>
       </view>
       <view class="myline"></view>
-      <view class="myCell" style="background-color:blueviolet" bindtap="showPassword">
+      <view class="myCell" bindtap="showPassword">
         <image class="myCellImage" src="../../images/icon/nbls_setting.png"></image>
         <text class="myCellText">退出登录</text>
       </view>

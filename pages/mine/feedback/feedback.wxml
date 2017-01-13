@@ -1,5 +1,5 @@
 <view class="myView">
-  <textarea value="{{myName}}" class="myInput" placeholder="请输入意见" focus="true">
+  <textarea value="{{feedbackContent}}" bindblur="myBindblur" class="myInput" placeholder="请输入意见" focus="true">
   </textarea>
   <button class="myButton" bindtap="sumitInfos" type="primary">
     提交
